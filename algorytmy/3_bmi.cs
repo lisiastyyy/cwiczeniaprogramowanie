@@ -3,7 +3,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Podaj wagę [kg]:");
+        Console.WriteLine("Podaj wage [kg]:");
         double waga = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Podaj wzrost [m]:");
@@ -11,6 +11,6 @@ class Program
 
         double bmi = Math.Round(waga / (wzrost * wzrost), 5);
 
-        Console.WriteLine("Współczynnik BMI: " + bmi);
+        Console.WriteLine("Wspolczynnik BMI: " + bmi);
     }
 }
